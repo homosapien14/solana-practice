@@ -18,3 +18,5 @@ const balanceInSol = balance / LAMPORTS_PER_SOL;
 console.log(`The balance of the account at ${address} is ${balanceInSol} SOL`);
 
 console.log(`✅ Finished!`);
+
+export default { connection };
